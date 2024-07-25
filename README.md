@@ -1,4 +1,5 @@
 # Сдача второй части проекта
+![image](https://github.com/user-attachments/assets/0698de51-738e-4702-9348-93396adf6821)
 
 ## SQL запрос первый:
 SELECT cour.login, COUNT(ord."inDelivery")  
@@ -7,7 +8,6 @@ WHERE ord."inDelivery" = true
 GROUP BY cour.login;
 
 ## SQL запрос второй:
-
 SELECT 
     track, 
     CASE
