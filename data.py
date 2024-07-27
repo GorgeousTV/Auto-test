@@ -16,8 +16,4 @@ create_order_body = {
         "BLACK"
     ]
 }
-create_cour_body = {
-    "login": "ninja",
-    "password": "1234",
-    "firstName": "saske"
-}
+
